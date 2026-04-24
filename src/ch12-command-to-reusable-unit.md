@@ -20,6 +20,8 @@ That's it. Everything else is packaging. Once you have the four ingredients, the
 
 Anthropic's format is called a **Skill**. A Skill is a directory containing a `SKILL.md` file with YAML frontmatter (name, description, optional constraints on when it runs) and a body written as markdown instructions. The directory can also contain scripts, reference documents, or other files the skill wants to pull in. Anthropic released the **Agent Skills** specification as an open standard in December 2025. Early adopters outside Anthropic include **Atlassian, Canva, Cloudflare, Figma, Notion, Ramp, and Sentry**. ([announcement context](https://thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards/))
 
+![A diagram of a skill directory containing SKILL.md, references, and scripts, with progressive disclosure loading name, body, and assets in stages.](assets/diagrams/png/skill-package-disclosure.png)
+
 Skills use *progressive disclosure*: at startup, the agent sees only the name and description of every skill, at minimal context cost. When the agent decides a skill applies — or when the user invokes one explicitly — the full body loads. When the skill runs scripts or references files, those load on demand. This is a sensible architecture for a world in which any one user has many skills but uses only a few per task.
 
 ### The others

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Skill package and progressive disclosure</title>
+  <desc id="desc">A diagram showing a skill directory with SKILL.md, references, and scripts, and how each layer loads progressively.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f3ea; }
+      .ink { fill: #1f2933; }
+      .muted { fill: #69727a; }
+      .paper { fill: #fffaf0; stroke: #1f2933; stroke-width: 3; }
+      .folder { fill: #eee3b8; stroke: #1f2933; stroke-width: 2.5; }
+      .file { fill: #d9e7e2; stroke: #1f2933; stroke-width: 2.5; }
+      .asset { fill: #d9e1ea; stroke: #1f2933; stroke-width: 2.5; }
+      .script { fill: #efd8cc; stroke: #1f2933; stroke-width: 2.5; }
+      .step { fill: #fffaf0; stroke: #1f2933; stroke-width: 2.5; }
+      .line { stroke: #1f2933; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .dash { stroke: #69727a; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-dasharray: 6 8; }
+      text { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .title { font-size: 38px; font-weight: 700; }
+      .label { font-size: 25px; font-weight: 700; }
+      .small { font-size: 19px; }
+      .code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 22px; }
+      .tinycode { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 18px; }
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#1f2933"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1200" height="675"/>
+  <text class="title ink" x="78" y="84">A Skill Is a Small Package</text>
+  <text class="small muted" x="80" y="120">The model sees the cheap catalog first, then loads only the pieces the task earns.</text>
+
+  <rect class="paper" x="86" y="166" width="455" height="455" rx="12"/>
+  <text class="label ink" x="124" y="214">Skill directory</text>
+  <text class="code ink" x="124" y="260">prd-review/</text>
+
+  <rect class="file" x="154" y="286" width="310" height="56" rx="8"/>
+  <text class="code ink" x="180" y="322">SKILL.md</text>
+  <text class="tinycode muted" x="184" y="366">name: prd-review</text>
+  <text class="tinycode muted" x="184" y="394">description: Review a PRD</text>
+  <text class="tinycode muted" x="184" y="422">instructions...</text>
+
+  <rect class="folder" x="154" y="448" width="310" height="48" rx="8"/>
+  <text class="code ink" x="180" y="480">references/</text>
+  <text class="tinycode muted" x="184" y="520">prd-checklist.md</text>
+
+  <rect class="script" x="154" y="536" width="310" height="48" rx="8"/>
+  <text class="code ink" x="180" y="568">scripts/</text>
+  <text class="tinycode muted" x="184" y="608">extract_sections.js</text>
+
+  <rect class="step" x="648" y="176" width="390" height="96" rx="12"/>
+  <rect class="step" x="648" y="336" width="390" height="96" rx="12"/>
+  <rect class="step" x="648" y="496" width="390" height="96" rx="12"/>
+
+  <text class="label ink" x="684" y="214">1. Catalog</text>
+  <text class="small muted" x="684" y="246">name + description only</text>
+  <text class="label ink" x="684" y="374">2. Skill body</text>
+  <text class="small muted" x="684" y="406">load SKILL.md when relevant</text>
+  <text class="label ink" x="684" y="534">3. Assets</text>
+  <text class="small muted" x="684" y="566">read references or run scripts on demand</text>
+
+  <path class="line" marker-end="url(#arrow)" d="M842 272 L842 326"/>
+  <path class="line" marker-end="url(#arrow)" d="M842 432 L842 486"/>
+  <path class="dash" d="M541 314 C596 314 600 224 648 224"/>
+  <path class="dash" d="M541 314 C602 314 598 384 648 384"/>
+  <path class="dash" d="M541 516 C604 516 600 544 648 544"/>
+</svg>

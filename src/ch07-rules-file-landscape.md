@@ -8,6 +8,8 @@ In fact, the situation is tidier than it looks. There are two layers at work. At
 
 This chapter is the map.
 
+![A stack diagram showing AGENTS.md as the portable base layer, with tool-specific rules layered above it.](assets/diagrams/png/rules-landscape-stack.png)
+
 ## The standard underneath: AGENTS.md
 
 In late 2024 and early 2025, several of the major tool makers — Sourcegraph, OpenAI, Google, Cursor, and a handful of others — converged on a shared convention. They would read a file called `AGENTS.md` at the root of a repository, treat its contents as instructions, and otherwise leave the format flexible. No schema. No required frontmatter. Plain markdown, short or long, structured or prose.

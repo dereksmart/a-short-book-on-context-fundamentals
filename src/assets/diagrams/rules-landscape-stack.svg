@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">The rules-file landscape</title>
+  <desc id="desc">A stack diagram showing AGENTS.md as the portable base layer with tool-specific rules layered above it.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f3ea; }
+      .ink { fill: #1f2933; }
+      .muted { fill: #69727a; }
+      .base { fill: #d9e7e2; stroke: #1f2933; stroke-width: 3; }
+      .toolGold { fill: #eee3b8; stroke: #1f2933; stroke-width: 2.5; }
+      .toolRust { fill: #efd8cc; stroke: #1f2933; stroke-width: 2.5; }
+      .toolBlue { fill: #d9e1ea; stroke: #1f2933; stroke-width: 2.5; }
+      .toolGray { fill: #e8e2d8; stroke: #1f2933; stroke-width: 2.5; }
+      .line { stroke: #1f2933; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .dash { stroke: #69727a; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-dasharray: 6 8; }
+      text { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .title { font-size: 38px; font-weight: 700; }
+      .label { font-size: 25px; font-weight: 700; }
+      .small { font-size: 19px; }
+      .tiny { font-size: 17px; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="675"/>
+  <text class="title ink" x="78" y="84">Rules File Landscape</text>
+  <text class="small muted" x="80" y="120">One durable markdown base; tool-specific layers only where they add something useful.</text>
+
+  <text class="label muted" x="90" y="200">Tool-specific layer</text>
+  <rect class="toolGold" x="90" y="230" width="300" height="86" rx="10"/>
+  <rect class="toolRust" x="450" y="230" width="300" height="86" rx="10"/>
+  <rect class="toolBlue" x="810" y="230" width="300" height="86" rx="10"/>
+  <rect class="toolBlue" x="90" y="350" width="300" height="86" rx="10"/>
+  <rect class="toolGray" x="450" y="350" width="300" height="86" rx="10"/>
+  <rect class="toolGold" x="810" y="350" width="300" height="86" rx="10"/>
+
+  <text class="label ink" x="126" y="267">CLAUDE.md</text>
+  <text class="tiny muted" x="126" y="294">@AGENTS.md import</text>
+  <text class="label ink" x="486" y="267">.cursor/rules</text>
+  <text class="tiny muted" x="486" y="294">scoped .mdc files</text>
+  <text class="label ink" x="846" y="267">Copilot</text>
+  <text class="tiny muted" x="846" y="294">path-scoped instructions</text>
+  <text class="label ink" x="126" y="387">GEMINI.md</text>
+  <text class="tiny muted" x="126" y="414">hierarchical loading</text>
+  <text class="label ink" x="486" y="387">CONVENTIONS.md</text>
+  <text class="tiny muted" x="486" y="414">read-only reference</text>
+  <text class="label ink" x="846" y="387">Other rules</text>
+  <text class="tiny muted" x="846" y="414">tool-native refinements</text>
+
+  <path class="dash" d="M240 436 L240 472"/>
+  <path class="dash" d="M600 436 L600 472"/>
+  <path class="dash" d="M960 436 L960 472"/>
+
+  <rect class="base" x="160" y="472" width="880" height="106" rx="12"/>
+  <text class="label ink" x="214" y="518">AGENTS.md</text>
+  <text class="small ink" x="214" y="548">portable invariants, shared team rules, durable context</text>
+  <text class="small muted" x="706" y="518">cross-vendor standard</text>
+</svg>
