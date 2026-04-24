@@ -1,6 +1,6 @@
 # Chapter 19 — Curated Beats Comprehensive
 
-In April 2026, Meta's engineering team published a blog post that, if you read it carefully, overturned a quiet pile of received wisdom about how to give AI agents the context they need.
+In April 2026, Meta's engineering team published a [blog post](https://engineering.fb.com/2026/04/06/developer-tools/how-meta-used-ai-to-map-tribal-knowledge-in-large-scale-data-pipelines/) that, if you read it carefully, overturned a quiet pile of received wisdom about how to give AI agents the context they need.
 
 Meta had built more than fifty specialized AI agents for internal use — for data pipelines, developer tooling, and mapping what they called the "tribal knowledge" of their engineering teams. For each agent, the team wrote a context file. The files were, on average, about **a thousand tokens** — twenty-five to thirty-five lines of text — and contained four sections: **Quick Commands**, **Key Files**, **Non-Obvious Patterns**, and **See Also**.
 
@@ -8,7 +8,7 @@ These tiny files, the post reported, substantially outperformed the longer, ency
 
 The compass, to borrow the post's own metaphor, beat the encyclopedia.
 
-I have held on to this finding for several chapters now, because it is the concrete evidence for a principle that has been implicit throughout Parts I, II, and IV. Without it, "keep your rules file short" sounds like stylistic preference. With it, the principle has a shape you can work from.
+I have held on to this finding for several chapters now, because it is the concrete evidence for a principle that has been implicit throughout the book so far. Without it, "keep your rules file short" sounds like stylistic preference. With it, the principle has a shape you can work from.
 
 ## The Meta pattern
 
@@ -69,5 +69,3 @@ One exercise.
 For the AI tool or agent you use most, write a thousand-token context file. Pick your own four sections; they need not be Meta's. Aim for twenty-five to thirty-five lines. No more. If you cannot fit what you want to say into that budget, cut. If you can, save the file, use it for a week, and see what happens.
 
 You will find, I think, that the discipline of writing it forces a kind of clarity about your own working context that you didn't know you lacked. That is often the most useful side effect of the whole exercise: not better AI, but a better grasp of your own work.
-
-Part VI is the tour of the specific tools you are most likely to be using. If you have gotten this far, you have the principles. The tools are where the principles land.

@@ -24,7 +24,7 @@ Inline citations throughout the book link to primary sources. This file collects
 - Anthropic, *Effective Context Engineering for AI Agents*, September 2025. [anthropic.com/engineering/effective-context-engineering-for-ai-agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 - OpenAI, *Memory and new controls for ChatGPT*, April 2025. [openai.com/index/memory-and-new-controls-for-chatgpt](https://openai.com/index/memory-and-new-controls-for-chatgpt/)
 - Google Cloud, *Vertex AI Memory Bank in public preview*, July 2025. [cloud.google.com/blog/products/ai-machine-learning/vertex-ai-memory-bank-in-public-preview](https://cloud.google.com/blog/products/ai-machine-learning/vertex-ai-memory-bank-in-public-preview)
-- Cursor, *1.0 and 1.2 changelogs* (Memories GA in 1.2). [cursor.com/changelog/1-0](https://cursor.com/changelog/1-0), [cursor.com/changelog/1-2](https://cursor.com/changelog/1-2)
+- Cursor, *1.2 changelog* (Memories GA in 1.2). [cursor.com/changelog/1-2](https://cursor.com/changelog/1-2)
 
 ### Chapter 5 — Where Longer Is Cheaper
 - Google, *Gemini API context caching*. [ai.google.dev/gemini-api/docs/caching](https://ai.google.dev/gemini-api/docs/caching)
@@ -77,13 +77,16 @@ Inline citations throughout the book link to primary sources. This file collects
 
 ### Chapter 15 — MCP, the Universal Context Protocol
 - Anthropic, *Donating the Model Context Protocol*, December 2025. [anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)
+- OpenAI, *New tools and features in the Responses API*, May 2025. [openai.com/index/new-tools-and-features-in-the-responses-api](https://openai.com/index/new-tools-and-features-in-the-responses-api/)
+- Microsoft, *Build 2025: The age of AI agents and building the open agentic web*, May 2025. [news.microsoft.com/source/asia/2025/05/20/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web-en](https://news.microsoft.com/source/asia/2025/05/20/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web-en/)
+- Google Cloud, *Announcing Model Context Protocol support for Google services*, December 2025. [cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services](https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services)
 
 ---
 
 ## Part V — Context That Travels
 
 ### Chapter 16 — Why Markdown Won
-- Gruber, *Markdown*, 2004 (not inline-cited; foundational reference).
+- Gruber, *Markdown*, 2004. [daringfireball.net/projects/markdown](https://daringfireball.net/projects/markdown/)
 
 ### Chapter 17 — Your Second Brain as LLM Context
 - Smart Connections: [github.com/brianpetro/obsidian-smart-connections](https://github.com/brianpetro/obsidian-smart-connections)
@@ -113,7 +116,7 @@ Inline citations throughout the book link to primary sources. This file collects
 - NotebookLM FAQ: [support.google.com/notebooklm/answer/16269187](https://support.google.com/notebooklm/answer/16269187)
 - Gemini context caching (Ch. 5 reference).
 - Cursor rules (Ch. 7 reference).
-- Cursor 1.0+ changelog (Ch. 4 reference).
+- Cursor 1.2 changelog (Memories GA).
 - Copilot custom-instructions support (Ch. 7 reference).
 - Agent Skills coverage: [thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards](https://thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards/)
 - Anthropic prompt caching (Ch. 5 reference).

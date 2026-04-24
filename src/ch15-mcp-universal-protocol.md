@@ -10,13 +10,13 @@ In November 2024, Anthropic released a specification called the **Model Context 
 
 ## The adoption
 
-Within twelve months, MCP had been adopted by almost every major AI vendor.
+Over the following year, MCP moved from Anthropic specification to broad cross-vendor infrastructure.
 
-**March 2025:** OpenAI adopted MCP across the Agents SDK, the Responses API, and the ChatGPT desktop client.
+**May 2025:** OpenAI added remote MCP server support to the Responses API, building on MCP support in the Agents SDK. ([OpenAI](https://openai.com/index/new-tools-and-features-in-the-responses-api/))
 
-**April 2025:** Google DeepMind announced adoption.
+**May 2025 (Build):** Microsoft announced broad first-party MCP support across GitHub, Copilot Studio, Dynamics 365, Azure AI Foundry, Semantic Kernel, and Windows 11. ([Microsoft](https://news.microsoft.com/source/asia/2025/05/20/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web-en/))
 
-**May 2025 (Build):** Microsoft rolled it out across Windows 11, Semantic Kernel, and Azure OpenAI.
+**December 2025:** Google Cloud announced official MCP support for Google services. ([Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services))
 
 **December 2025:** Anthropic formally donated MCP to the Linux Foundation, establishing the Agentic AI Foundation as its long-term steward. ([announcement](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation))
 
@@ -67,9 +67,3 @@ Two small explorations.
 First, spend ten minutes looking at what MCP servers exist for tools you already use. GitHub. Linear. Slack. Obsidian, if you keep notes there. Your file system. Most of them have off-the-shelf MCP servers you can install in a few minutes, and which will, once running, make your AI dramatically more useful in ways you hadn't anticipated.
 
 Second, when you next find yourself copy-pasting information from an external tool into a prompt — pricing from a spreadsheet, tickets from a tracker, messages from a channel — pause. Ask if an MCP server exists for that source. If so, install it. The copy-paste step, once eliminated, does not come back.
-
-This closes Part IV. We have now covered all four of the questions this book set out to answer: why sessions drift, what to tell the model for every session, what to tell it for the current task, and how to shape what it learns along the way.
-
-The remaining Parts pull back. We will look at how to carry context across tools, survey the specific tools you are most likely to use, and consider where the field is heading.
-
-The diagnosis and the prescription are complete. What follows is the map.

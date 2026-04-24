@@ -76,5 +76,3 @@ First, start a small list — on paper, in a notes app, somewhere you'll see it 
 Second, pick the one task you do most often with an AI, and spend twenty minutes turning it into whatever your tool's reusable-command format is. This will feel like over-engineering for the first three invocations. By the tenth, it will feel like the most obvious thing you've ever done.
 
 Part III ends here. The rules file says what is always true; the command says what to do right now; the skill is the command you've saved because you've done it enough times to deserve one.
-
-What we have not yet talked about is what the model does *between* the command and the answer. It reads. It explores. It retrieves. It builds up context you didn't give it explicitly. That process is the third and final layer, and it is, for most kinds of work, the most interesting.

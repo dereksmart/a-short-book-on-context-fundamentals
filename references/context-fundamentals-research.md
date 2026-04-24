@@ -377,7 +377,7 @@ The cross-vendor standard is **AGENTS.md**, stewarded since late 2025 by the Age
 | ChatGPT | Saved memories + chat-history reference | Expanded Apr 10, 2025 to reference all prior conversations implicitly. Deleting a chat doesn't delete derived memories. ([announcement](https://openai.com/index/memory-and-new-controls-for-chatgpt/)) |
 | Claude | Project/user CLAUDE.md + auto memory + memory tool (beta) | Memory tool reports **39% lift on agentic search, 84% token reduction on 100-turn tasks** (Anthropic internal evals) ([docs](https://docs.claude.com/en/docs/agents-and-tools/tool-use/memory-tool)) |
 | Gemini | Vertex AI Memory Bank | Public preview Jul 8, 2025; async extraction, topic-scoped, contradiction reconciliation ([blog](https://cloud.google.com/blog/products/ai-machine-learning/vertex-ai-memory-bank-in-public-preview)) |
-| Cursor | Memories (per-project, per-user) | GA in Cursor 1.2 ([changelog](https://cursor.com/changelog/1-0)) |
+| Cursor | Memories (per-project, per-user) | GA in Cursor 1.2 ([changelog](https://cursor.com/changelog/1-2)) |
 | Windsurf | Memories | Persist across Cascade sessions |
 | Third-party | mem0, Zep/Graphiti, Letta, Cognee, Supermemory | Cross-vendor memory layers accessed via SDK/MCP. Treat leaderboard numbers as directional; benchmarks vary by backbone model. |
 
@@ -410,9 +410,9 @@ Treat advertised figures as marketing and effective figures as what to design fo
 ### MCP Adoption Timeline
 
 - **Nov 2024**: Anthropic announces Model Context Protocol
-- **Mar 2025**: OpenAI adopts across Agents SDK, Responses API, ChatGPT desktop
-- **Apr 2025**: Google DeepMind adopts
-- **May 2025**: Microsoft adopts (Windows 11, Semantic Kernel, Azure OpenAI)
+- **May 2025**: OpenAI adds remote MCP server support to the Responses API, building on MCP support in the Agents SDK ([announcement](https://openai.com/index/new-tools-and-features-in-the-responses-api/))
+- **May 2025**: Microsoft announces broad first-party MCP support across GitHub, Copilot Studio, Dynamics 365, Azure AI Foundry, Semantic Kernel, and Windows 11 ([announcement](https://news.microsoft.com/source/asia/2025/05/20/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web-en/))
+- **Dec 2025**: Google Cloud announces official MCP support for Google services ([announcement](https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services))
 - **Dec 2025**: MCP donated to Linux Foundation's Agentic AI Foundation ([announcement](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation))
 
 MCP is now the cross-vendor protocol for giving LLMs tools and context. AGENTS.md is the cross-vendor format for giving them instructions. These two standards, more than any single tool feature, define the 2026 context landscape.

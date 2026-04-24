@@ -59,5 +59,3 @@ Two habits, for those running anything beyond personal use.
 First, **add a trace to whatever agent you are building**. Even the simplest logging — capturing the prompt, the response, the tools called — is dramatically better than nothing. You will need it the first time something goes wrong and you are asked to explain what happened.
 
 Second, **write three evals**, even if they feel like overkill. Pick three behaviors your agent should reliably exhibit. Capture the inputs and the expected outputs. Run them every time you change something. This is the smallest-useful evaluation practice, and the hardest to skip once adopted. Most teams I know who started with three evals are now running three hundred.
-
-The next chapter picks up a related thread — what has been happening in the practice of actually specifying the work we ask AI to do, an area called *spec-driven development*, which is, in its own way, another kind of harness.

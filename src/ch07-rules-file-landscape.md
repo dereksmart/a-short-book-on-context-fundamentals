@@ -12,7 +12,7 @@ This chapter is the map.
 
 In late 2024 and early 2025, several of the major tool makers — Sourcegraph, OpenAI, Google, Cursor, and a handful of others — converged on a shared convention. They would read a file called `AGENTS.md` at the root of a repository, treat its contents as instructions, and otherwise leave the format flexible. No schema. No required frontmatter. Plain markdown, short or long, structured or prose.
 
-The convention was formalized at [agents.md](https://agents.md/), and in late 2025 moved under the stewardship of the Linux Foundation's newly-formed Agentic AI Foundation. The list of tools that read the file is, by now, somewhere between long and comprehensive: **OpenAI Codex, Cursor, GitHub Copilot, Google Jules, Gemini CLI, Aider, Zed, Warp, Windsurf, RooCode, Cline, Continue.dev, Amp, Factory, goose, opencode, Kilo Code, Junie,** and others. ([agents.md](https://agents.md/), [agentsmd.io](https://agentsmd.io/)) The project's own count is more than sixty thousand repositories using one.
+The convention was formalized at [agents.md](https://agents.md/), and in late 2025 moved under the stewardship of the Linux Foundation's newly-formed Agentic AI Foundation. The list of tools that read the file is, by now, somewhere between long and comprehensive: **OpenAI Codex, Cursor, GitHub Copilot, Gemini CLI, Aider, Zed, Warp, Windsurf, Cline, Continue.dev,** and many others. ([agents.md](https://agents.md/), [agentsmd.io](https://agentsmd.io/)) The project's own count is more than sixty thousand repositories using one.
 
 This is, for a field that routinely invents three incompatible standards before breakfast, an unusual outcome. It happened in part because markdown is the lowest-friction format — everyone reads it, everyone writes it, no parser to maintain — and in part because none of the adopters wanted to own the standard themselves. The Linux Foundation stewardship makes the neutrality explicit.
 
@@ -73,5 +73,3 @@ Two small moves.
 First, check what your primary tool actually reads. Run its equivalent of *show me your loaded context* — `/memory`, `/context`, `/rules`, or whatever — and confirm.
 
 Second, if you don't already have an `AGENTS.md`, create one, even if you are a Claude-only or Cursor-only shop today. Tools change. Teams expand. Rules that travel are rules that survive. The cross-vendor format costs you nothing.
-
-The next chapter covers a subject I have been promising: how big the thing should be, and why most rules files are too big by half.

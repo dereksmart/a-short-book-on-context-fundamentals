@@ -14,7 +14,7 @@ The window, as we have seen, is finite. A conversation that runs for two hours a
 
 The choices available to the tool at this point are unappealing. It can refuse to continue — rude. It can drop old turns entirely, which means you have lost everything you said at the start of the session. Or it can try to *compress* the old turns into a shorter form that preserves the gist, if not the detail, and carry on.
 
-Every major tool has chosen the third option. Claude Code has a `/compact` command. ChatGPT extracts memories silently and continuously ([announcement](https://openai.com/index/memory-and-new-controls-for-chatgpt/)). Google's Vertex AI Memory Bank, in public preview since July 2025, processes conversations asynchronously and reconciles contradictions over time ([blog](https://cloud.google.com/blog/products/ai-machine-learning/vertex-ai-memory-bank-in-public-preview)). Cursor's Memories persist per-project, per-user ([changelog](https://cursor.com/changelog/1-0)). The tools differ in the details. The shape is the same: when the window fills, earlier material gets compressed into something smaller.
+Every major tool has chosen some version of compression, extraction, or persistence. Claude Code has a `/compact` command. ChatGPT extracts memories silently and continuously ([announcement](https://openai.com/index/memory-and-new-controls-for-chatgpt/)). Google's Vertex AI Memory Bank, in public preview since July 2025, processes conversations asynchronously and reconciles contradictions over time ([blog](https://cloud.google.com/blog/products/ai-machine-learning/vertex-ai-memory-bank-in-public-preview)). Cursor's Memories persist per-project, per-user ([changelog](https://cursor.com/changelog/1-2)). The tools differ in the details. The shape is the same: when the window fills, earlier material gets turned into something smaller.
 
 ## The screenshot of a screenshot
 
@@ -73,9 +73,3 @@ The first is **anchoring.** If something important gets said in conversation —
 The second is **breadcrumbs.** Before a long break, a switch of tasks, or a planned compaction, leave a short scratchpad of state — what is done, what is next, what the open questions are. The scratchpad is a note from today's you to tomorrow's you. When you come back after a compaction, the breadcrumb will restore more than any summary can.
 
 Together, these amount to a working philosophy: **do not let the model carry state for you.** Carry it yourself, in files you control, in places that do not get compressed.
-
-## Onward
-
-Three of the four forces working against a good AI session are now behind us. The window is small. The middle is dim. The record gets rewritten as you go.
-
-The fourth comes from a different direction. It is a pricing quirk, of all things, which turns out to restructure how you should think about what goes in the window and in what order. We come to it next.

@@ -22,7 +22,7 @@ There is a **minimum**. The cache does not engage for tiny prompts; most vendors
 
 And there is a **time-to-live**. Cache entries do not persist forever. A typical default is five minutes — long enough for a burst of activity, short enough that stale prefixes don't clog the system. Some vendors offer longer TTLs at a premium.
 
-Now the fun part: the three big vendors do this very differently, in ways that reward paying attention.
+Now the fun part: as of April 2026, the three big vendors do this very differently, in ways that reward paying attention.
 
 ## A tour of the vendors
 
@@ -34,7 +34,7 @@ Now the fun part: the three big vendors do this very differently, in ways that r
 
 Why make users do the extra work? The charitable reading is that explicit control is a feature: users who mark their cache blocks tend to *organize* their prompts around cache boundaries, which produces more efficient caching than a system that just does its best in the background.
 
-If you want a single sentence to carry out of this tour: **Google 90% automatic, Anthropic 90% opt-in, OpenAI 50% automatic.**
+If you want a single sentence to carry out of this tour, it is the one the vendor docs above imply: Google and OpenAI cache automatically, while Anthropic gives you more explicit control.
 
 ## The consequence nobody talks about
 
@@ -54,6 +54,4 @@ First, put the **durable at the top and the volatile at the bottom**. Your syste
 
 Second, **treat your rules file as an asset, not a document**. A well-written `CLAUDE.md` or `AGENTS.md` is the one chunk of your prompt that will be cached on nearly every turn. Investing in it pays down on every future interaction. The compound return is hard to beat.
 
-We are going to spend the entire next Part on what belongs in that rules file. It is, as it happens, the single biggest unlock most people have available to them. Caching is the economic argument for it. The editorial argument — the more important of the two — comes next.
-
-Onward.
+The rules file is one of the biggest practical advantages most people have available to them. Caching is the economic argument for it. The editorial argument — the more important of the two — is that a good rules file keeps the model close to the shape of your work.

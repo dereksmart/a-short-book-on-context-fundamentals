@@ -58,6 +58,7 @@ book/
 ├── references/        (research and source workshop script)
 ├── src/               (publication inputs only)
 │   ├── ch00-*.md      (preface)
+│   ├── ch00a-part-*.md, ch05a-part-*.md, ... (Part openers)
 │   ├── ch01-*.md      (chapters, numbered + slugged)
 │   ├── ...
 │   ├── keyboard-reference.md

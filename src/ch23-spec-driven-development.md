@@ -32,7 +32,7 @@ What is clearer, if you talk to people doing the work, is the shape of the impro
 
 ## What a spec looks like
 
-A spec, in the spec-driven sense, is not a formal document in the IEEE-1234 tradition. It is a markdown document, usually a few hundred to a few thousand words, that answers roughly four questions.
+A spec, in the spec-driven sense, is not a formal document in the IEEE-1234 tradition. It is a markdown document, usually a few hundred to a few thousand words, that answers roughly four questions. In software, the spec describes code. In product, it might describe a launch decision. In design, it might describe a handoff package. In editorial work, it might describe a revision brief. The shape is the same.
 
 **What is being built?** The thing, in plain terms. What it does. What problem it solves. The scope, defined more by what is *not* included than by what is.
 
@@ -68,8 +68,6 @@ Spec-driven development is, in effect, what happens when the habits of this book
 
 One thing to try.
 
-For your next non-trivial coding task, write a short spec first. Four sections, a page or so. Walk through what's being built, how, what counts as done, and what's out of scope. Then prompt the AI with *build to this spec, and when you think you're done, walk through the acceptance criteria and tell me how each one is satisfied.*
+For your next non-trivial coding task — or any task with enough moving parts to go wrong quietly — write a short spec first. Four sections, a page or so. Walk through what's being built, how, what counts as done, and what's out of scope. Then prompt the AI with *build to this spec, and when you think you're done, walk through the acceptance criteria and tell me how each one is satisfied.*
 
 You will find — and this is one of those predictions I make with unusual confidence — that the result is better than what you would have gotten from a prompt alone, and that you had to write less than you expected to get there.
-
-One more chapter remains. It is about a role that is emerging as a consequence of everything this book has been about: the person on the team whose job is to assemble the context.

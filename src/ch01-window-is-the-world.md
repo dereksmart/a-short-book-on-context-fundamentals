@@ -54,6 +54,6 @@ There is a lovely, terrible consequence of this, which the rest of Part I will e
 
 A small note, because the book is about LLMs in general and not any one of them.
 
-Every frontier model has a context window. Sizes in the current generation run from around 128,000 tokens at the low end to just over a million at the top. Cursor, Copilot, Aider, Windsurf, and most other tools use whichever window belongs to whichever model you have pointed them at. The details differ by vendor; the architecture is shared.
+As of April 2026, every frontier model has a context window. Advertised sizes in the current generation run from around 128,000 tokens at the low end to just over a million at the top. Cursor, Copilot, Aider, Windsurf, and most other tools use whichever window belongs to whichever model you have pointed them at. The details differ by vendor; the architecture is shared.
 
-These are the advertised numbers, and they are very large indeed. In the next chapter we will see what happens when we ask how much of that window the model can *actually use* — which, spoilers, is rather less than it says on the box. For now, the only thing that matters is this: **there is only one window, and it is the world.** Treat it accordingly.
+These are the advertised numbers, and they are very large indeed. The practical point is simpler than the marketing: **there is only one window, and it is the world.** Treat it accordingly.

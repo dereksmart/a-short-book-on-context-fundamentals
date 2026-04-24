@@ -8,7 +8,7 @@ Except that, as anyone who has spent any time putting things in their prompts an
 
 The U-curve is real and repeatable, as the last chapter established. What I want to do in this one is explain *why* — and, more specifically, why it has been, despite a great deal of well-meaning effort, very hard to get rid of.
 
-The short version is that the U-curve is not a bug. It is a geometric consequence of how modern language models are built. To make it go away permanently, you would need to change the architecture of the transformer itself — which has been tried, which has produced real improvements in the lab, and which has not yet made its way into the models you actually use.
+The short version is that the U-curve is not a simple bug. It appears to be a structural consequence of how modern language models are built. To make it go away permanently, you would need to change the architecture of the transformer itself — which researchers have tried, with real improvements in the lab, but which has not yet displaced the architectures in the models most people use.
 
 ## Why the middle is dim
 
@@ -30,7 +30,7 @@ This matters because the middle of a long prompt is, by definition, far from bot
 
 Research groups have not been ignoring all this. There is an entire sub-field dedicated to teaching models to pay better attention to their middles, with intriguing names like *Multi-scale Positional Encoding* and *Found in the Middle*. Some of these methods, tested on academic benchmarks, produce real improvements — the U-curve flattens, or rotates, or becomes somewhat less pronounced.
 
-But — and this is where we come to the honest part of the chapter — none of them have yet been deployed at the frontier. The models you are most likely using day-to-day (GPT-5, Claude Sonnet 4.6, Gemini 2.5 Pro, the latest Llamas) all use variants of the same causal-masking-plus-RoPE architecture that produces the U-curve in the first place. The proposed mitigations remain, for the moment, in the lab. And even the ones that work in the lab work only partially. As of this writing, no frontier model has been shown, on an independent benchmark, to be completely free of middle-drift.
+But — and this is where we come to the honest part of the chapter — the mitigations have not yet made the problem disappear in the frontier tools most readers are using. As of April 2026, the models you are most likely using day-to-day (GPT-5, Claude Sonnet 4.6, Gemini 2.5 Pro, the latest Llamas) still show enough of the same long-context behavior that the practical advice holds. No frontier model has been shown, on an independent benchmark, to be completely free of middle-drift.
 
 You may find this slightly frustrating. You are not alone. The fix, in a strict sense, is known. The fix has not arrived. In the meantime, we work with what we have.
 
@@ -48,12 +48,10 @@ The first: **put the most important instruction closest to the ask.** If there i
 
 The second: **do not rely on the middle.** Whatever must not be forgotten should be either at the top, at the bottom, or in a rules file (which is re-injected every turn, and so is always effectively at the top). The middle is a reasonable place for reference material. It is a bad place for the one thing.
 
-## Onward
+## What to carry forward
 
 Drift is a context problem. It is also, now, a geometry problem — a consequence of how attention flows through long sequences. There is no setting you can flip to change the geometry. But you can arrange the content within it, and if you do, the model will almost always meet you halfway.
 
 We have been talking about the window as though it were a static thing — a snapshot of everything the model sees, on a given turn. That is not quite the whole picture. The window also changes. Conversations grow, sessions fill up, and the tool surrounding the model does something — quietly, and usually without telling you — to make room.
 
 What happens when the context you worked so hard to assemble starts, slowly and invisibly, to be rewritten by the system itself?
-
-That is the next chapter.

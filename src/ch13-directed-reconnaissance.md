@@ -58,7 +58,11 @@ The three moves apply identically across disciplines; only the names of the file
 
 **Engineering.** *Aim:* start in the affected package; read the tests adjacent to the change. *Bound:* don't touch the migration files; don't run the full test suite. *Encode:* put the test discipline in `AGENTS.md`.
 
-**Product** aims at the latest research and the PRD template; bounds away from archived versions and internal Slack; encodes the sources list into a PRD-drafting skill. **Design** aims at the current Figma frame and the token set; bounds away from archived explorations; encodes the design-system reference into a critique skill. **Editorial** aims at the latest draft and review notes; bounds away from older drafts and resolved comments; encodes the style guide as a read-only reference.
+**Product** aims at the latest research and the PRD template; bounds away from archived versions and internal Slack; encodes the sources list into a PRD-drafting skill.
+
+**Design** aims at the current Figma frame and the token set; bounds away from archived explorations; encodes the design-system reference into a critique skill.
+
+**Editorial** aims at the latest draft and review notes; bounds away from older drafts and resolved comments; encodes the style guide as a read-only reference.
 
 The specifics differ. The mental model is identical. Aim, bound, encode.
 
@@ -73,5 +77,3 @@ Two small exercises.
 First, for your next non-trivial task, include one explicit *ignore* or *don't* instruction. Something the model should *not* do, read, or touch. Notice the effect on the output. You will often find the result is tighter than you expected, for reasons you wouldn't have predicted.
 
 Second, when the model completes a task well, pause and ask yourself: *was that path of exploration worth encoding?* If yes — if you're likely to want the same path next week — take three minutes and promote it. To the rules file if it's general. To a skill if it's task-specific. The encoding compounds; the raw instruction does not.
-
-Next chapter is about the companion principle: what to do when the model is about to pull in *more* than it needs. Directed reconnaissance is the positive move — point the model at the right material. Just-in-time retrieval is the negative one — resist the temptation to load everything at once.

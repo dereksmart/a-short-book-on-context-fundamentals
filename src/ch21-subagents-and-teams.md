@@ -16,7 +16,7 @@ An **agent team**, by contrast, is a collection of agents with their own persist
 
 These are different tools for different problems. The common confusion is to treat them as the same thing at different scales. They are not.
 
-Subagents are what you want when **only the result matters** — when the work needs doing, you do not need to watch the process, and consolidating all the reasoning in the main agent would blow its context budget. Summarizing a large codebase. Extracting facts from many documents. Running a batch of similar tasks. The subagent handles one piece, reports back, and disappears.
+Subagents are what you want when **only the result matters** — when the work needs doing, you do not need to watch the process, and consolidating all the reasoning in the main agent would blow its context budget. Summarizing a large codebase. Extracting facts from many documents. Running a batch of similar tasks. Having one agent read the research archive while another keeps drafting the brief. The subagent handles one piece, reports back, and disappears.
 
 Agent teams are what you want when **the agents need to challenge each other's work** — when the quality of the output genuinely benefits from two or more perspectives, when one agent's draft needs to be reviewed by another, when a task has multiple components that can be worked in parallel and then integrated. More expensive, more complex, but capable of outcomes a single agent would struggle to reach alone.
 
@@ -38,7 +38,7 @@ Both patterns exist across every major tool. The implementations differ; the cat
 
 ## What the research is starting to show
 
-Multi-agent work, as a research direction, is still young. A few findings from the 2025 literature are worth naming.
+Multi-agent work, as a research direction, is still young. Early evidence suggests a few patterns worth naming.
 
 **Specialization helps, up to a point.** Teams with distinct roles — reviewer, synthesizer, critic — outperform teams of generic agents. The same principle, as it happens, as specialization in human teams.
 
@@ -69,5 +69,3 @@ Two small experiments.
 First, for a research-flavored task — reading a set of documents and summarizing them — try delegating to a subagent. Notice what it is like to hand off a sub-problem cleanly and get a clean return.
 
 Second, resist the temptation to reach for agent teams unless you have a problem that genuinely benefits. The category exists; it is useful for a narrow set of work; for the other 95% of what you are doing, a single well-shaped agent remains the best answer.
-
-Next chapter moves up one more level of abstraction — from agents to the systems around agents, an emerging discipline called *harness engineering*.

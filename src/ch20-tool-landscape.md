@@ -6,7 +6,7 @@ There is a small ritual I suspect many readers will recognize. You open your lap
 
 At some point, standing in the kitchen waiting for the coffee to brew, it occurs to you — not for the first time — that you used to have *a* computer, and that you now have something closer to a small committee of specialized ones, each with its own handwriting and its own moods.
 
-This chapter is a compact tour of that committee: what each of the major tools is distinctively good at, what its quirks are, and how to pick one when you are making a first-time choice. It is also the chapter that will age fastest. The principles of Parts I through V will not. If you are reading this some distance from its publication, treat the tool-specific details as snapshots and the patterns as load-bearing.
+This chapter is a compact tour of that committee as it stood in April 2026: what each of the major tools is distinctively good at, what its quirks are, and how to pick one when you are making a first-time choice. It is also the chapter that will age fastest. The principles of Parts I through V will not. If you are reading this some distance from its publication, treat the tool-specific details as snapshots and the patterns as load-bearing.
 
 ## ChatGPT / OpenAI
 

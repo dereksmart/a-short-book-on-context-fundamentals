@@ -50,7 +50,7 @@ The test for user scope is a twist on the invariant test from Chapter 6: *would 
 
 The third scope is the odd one, because you do not write it. The tool writes it on your behalf, by observing your corrections and extracting patterns.
 
-The mechanisms vary. **Claude Code** keeps auto memory in `~/.claude/projects/<project>/memory/`, with an index in `MEMORY.md` and topic files loaded on demand ([docs](https://code.claude.com/docs/en/memory)). **ChatGPT**'s Memory, since April 2025, has two layers — *saved memories* you can review and *chat history reference* that implicitly pattern-matches your past chats ([announcement](https://openai.com/index/memory-and-new-controls-for-chatgpt/)). **Cursor** Memories went GA in 1.2, per-project, per-user, with user approval for background-generated ones ([changelog](https://cursor.com/changelog/1-0)). **Vertex AI Memory Bank** is Google's production-grade equivalent for developers building agents on Google Cloud ([blog](https://cloud.google.com/blog/products/ai-machine-learning/vertex-ai-memory-bank-in-public-preview)).
+The mechanisms vary. **Claude Code** keeps auto memory in `~/.claude/projects/<project>/memory/`, with an index in `MEMORY.md` and topic files loaded on demand ([docs](https://code.claude.com/docs/en/memory)). **ChatGPT**'s Memory, since April 2025, has two layers — *saved memories* you can review and *chat history reference* that implicitly pattern-matches your past chats ([announcement](https://openai.com/index/memory-and-new-controls-for-chatgpt/)). **Cursor** Memories went GA in 1.2, per-project, per-user, with user approval for background-generated ones ([changelog](https://cursor.com/changelog/1-2)). **Vertex AI Memory Bank** is Google's production-grade equivalent for developers building agents on Google Cloud ([blog](https://cloud.google.com/blog/products/ai-machine-learning/vertex-ai-memory-bank-in-public-preview)).
 
 The common shape: the model watches what you do, extracts patterns, stores them, and reads them back into future sessions without being asked.
 
@@ -80,4 +80,4 @@ First, if you do not have a user-scope rules file, create one. It can be three l
 
 Second, open your auto memory. You probably have not looked at it in a while, if ever. Read through the entries. Delete whatever is stale, wrong, or no longer you. Promote anything that has become a real invariant into your project or user file.
 
-This closes Part II. We have now seen what belongs in a rules file, where the file goes, how big it should be, and whose scope it lives in. The next Part takes up the second of our four questions: what do we say to the model for the job we are asking it to do *right now?*
+This closes Part II. We have now seen what belongs in a rules file, where the file goes, how big it should be, and whose scope it lives in.

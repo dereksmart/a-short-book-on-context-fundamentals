@@ -14,7 +14,7 @@ It is not a technical manual. It will not teach you to fine-tune a model, write 
 
 ## How it's organized
 
-Seven Parts, twenty-four chapters, plus a short coda.
+Seven Parts: twenty-four short chapters, plus a coda.
 
 **Part I** establishes the mechanics of what an AI actually sees when you work with it. The context window, its size, its limits, how it compresses over time. Read this Part in order; the rest of the book refers back to it constantly.
 

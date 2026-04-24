@@ -55,5 +55,3 @@ One experiment, one skeptical note.
 The experiment: if you have a vault, spend a week using an embeddings-based plugin — Smart Connections or Copilot, whichever appeals — and see whether the AI's output improves when it has access to your notes. Pick real tasks, not toy ones. Notice whether retrieval is surfacing the right notes and whether the AI is using them well.
 
 The skeptical note: if you don't have a vault, this is not a required step. A well-maintained `AGENTS.md` and a few carefully chosen reference files often do more for your AI than a vast unsorted vault would. The second brain is one context source among several. It is not the ticket to AI-assisted greatness. It is a tool, with the usual properties: useful when well-made, neutral when neglected, occasionally counterproductive when it replaces the smaller, sharper piece of writing you could have done instead.
-
-We have seen one kind of external context — your own notes. In the next chapter we look at another: the services that try to be the memory *between* you and your AI, which are a live and somewhat crowded industry, and which you may or may not need.

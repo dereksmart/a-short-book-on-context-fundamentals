@@ -26,7 +26,7 @@ Four recurring threads.
 
 **Authorship** — writing the rules files, skills, and system prompts, and editing what others contribute. **Curation** — pruning stale rules, consolidating duplicates, promoting successful patterns into reusable skills, retiring skills that no one uses. **Integration** — choosing and maintaining the tooling around the AI: memory approach, MCP servers, evaluation suite, observability. **Diagnosis** — when the AI starts producing worse output than it used to, figuring out why.
 
-Curation deserves a word more than the others, because it is the most under-appreciated. It is the janitorial half of the role — consolidating, pruning, promoting, retiring — and it is what separates a team whose AI tooling compounds from one whose tooling accretes. A rules file that grows without editing becomes, within a quarter or two, a rules file nobody reads. Most of the day-to-day work of the role is curation and diagnosis; authorship and integration happen in bursts, usually when something is being set up or reorganized.
+Curation deserves a word more than the others, because it is the most under-appreciated. It is the maintenance half of the role — consolidating, pruning, promoting, retiring — and it is what separates a team whose AI tooling compounds from one whose tooling accretes. A rules file that grows without editing becomes, within a quarter or two, a rules file nobody reads. Most of the day-to-day work of the role is curation and diagnosis; authorship and integration happen in bursts, usually when something is being set up or reorganized.
 
 ## The role at different scales
 
@@ -53,5 +53,3 @@ One is to propose the role formally: make the case that someone should be given 
 The other is to simply start doing the work. Take ownership of the `AGENTS.md` at your repo root. Propose a skill when you notice a recurring prompt. Fix stale rules in the files you notice going unmaintained. You will, within a few months, have accumulated enough de facto ownership that the formal designation will either arrive or become unnecessary.
 
 Either path works. Neither is easier than it sounds. But the work is valuable, it compounds, and it is notably the kind of work that the AI itself cannot yet do — the curation of what the AI sees and how it behaves is, in the reasonable near future, a human responsibility.
-
-That closes the chapter, and with it the substantive content of the book. One more chapter remains, which is less a chapter than a send-off.

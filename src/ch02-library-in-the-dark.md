@@ -49,10 +49,10 @@ A third benchmark, **BABILong**, puts the matter about as plainly as it can be p
 
 ## The practical headline
 
-If you remember nothing else from this chapter, remember this: **the effective context window is somewhere between four and ten times smaller than the advertised one.**
+If you remember nothing else from this chapter, remember this: **the effective context window is somewhere between four and ten times smaller than the advertised one**, as a practical synthesis of what RULER, NoLiMa, and BABILong each show in different ways. ([RULER](https://arxiv.org/abs/2404.06654), [NoLiMa](https://arxiv.org/abs/2502.05167), [BABILong](https://arxiv.org/abs/2406.10149))
 
 A model that says it can handle a million tokens can be reasonably trusted, in practice, with somewhere between a hundred thousand and a quarter of a million. A model that says 128K is often genuinely useful up to around 16K to 32K on a hard task. The bigger the claim, the bigger the gap tends to be — partly because the benchmarks are hardest at the extremes, and partly because marketing is unconstrained by benchmarks.
 
 The honest engineering posture is to assume a useful window of perhaps 16,000 to 64,000 tokens, and to let measured benchmarks, not billboards, earn you any more. Design your prompts so the information that matters most sits near the ends, not the middle. Keep what the model must not forget *close to where it is about to speak*.
 
-Why this happens — and why two years of well-funded research haven't fixed it — is the subject of the next chapter.
+That is the honest engineering posture: measure the window you can actually use, and keep what the model must not forget close to where it is about to speak.

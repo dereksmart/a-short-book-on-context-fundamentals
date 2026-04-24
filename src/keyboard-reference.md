@@ -103,7 +103,7 @@ The Gemini CLI is a terminal-resident tool; most of its interface is slash comma
 
 ---
 
-## ChatGPT (claude.ai and chatgpt.com, web interface)
+## ChatGPT (chatgpt.com, web interface)
 
 These tools are primarily mouse-driven. The shortcuts that do exist:
 

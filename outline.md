@@ -64,10 +64,8 @@ A single consolidated reference chapter. (Originally drafted as six per-tool cha
 
 ## Back matter
 
-- Full speaker script + slide deck (the workshop itself, preserved)
-- Keyboard shortcut reference (Claude Code, Cursor, VS Code, Gemini CLI)
 - Sources, by chapter
-- About the authors / about the cohort
+- Keyboard shortcut reference (Claude Code, Cursor, VS Code, Gemini CLI)
 
 ## Guiding principles
 

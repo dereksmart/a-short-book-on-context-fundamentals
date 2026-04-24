@@ -2,11 +2,11 @@
 
 ![Plain notes moving between a notebook, laptop, and small device, suggesting portable markdown context.](assets/images/part-05-context-travels.png)
 
-In 2004, a Philadelphia-based blogger named John Gruber, with some input from Aaron Swartz, introduced a lightweight markup language he called **Markdown**. The pitch, which Gruber made with his characteristic restraint, was that it was a way to write formatted text that also looked perfectly readable without being rendered — asterisks for emphasis, pound signs for headers, hyphens for bullet points, that sort of thing.
+In 2004, a Philadelphia-based blogger named John Gruber, with some input from Aaron Swartz, introduced a lightweight markup language he called **Markdown**. ([original project](https://daringfireball.net/projects/markdown/)) The pitch, which Gruber made with his characteristic restraint, was that it was a way to write formatted text that also looked perfectly readable without being rendered — asterisks for emphasis, pound signs for headers, hyphens for bullet points, that sort of thing.
 
 Nobody particularly noticed.
 
-Twenty-odd years later, Markdown has turned out to be one of the most thoroughly victorious formats in the history of software. It is what GitHub READMEs are written in. It is what Slack interprets when you put an asterisk around a word. It is the default in Notion, Obsidian, Bear, Craft, and most of the serious note-taking tools of the last decade. It is how Stack Overflow works. It is how every LLM-facing rules file — `CLAUDE.md`, `AGENTS.md`, `GEMINI.md`, `CONVENTIONS.md`, the Cursor `.mdc` files — structures its content.
+Twenty-odd years later, Markdown has turned out to be one of the most thoroughly victorious formats in the history of software. It is what GitHub READMEs are written in. It is what Slack interprets when you put an asterisk around a word. It is native to Obsidian, Bear, Craft, and much of the serious note-taking world; even tools with richer internal document models, like Notion, import and export it well enough to matter. It is how Stack Overflow works. It is how every LLM-facing rules file — `CLAUDE.md`, `AGENTS.md`, `GEMINI.md`, `CONVENTIONS.md`, the Cursor `.mdc` files — structures its content.
 
 This was not inevitable. There were other formats in the running. And yet, quietly and over about fifteen years, Markdown won.
 

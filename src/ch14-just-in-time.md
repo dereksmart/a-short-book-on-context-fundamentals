@@ -6,7 +6,7 @@ You have a thousand-page document. The window holds a million tokens. It fits! *
 
 This, as almost everyone who has tried it eventually learns, works less well than you would hope. You have read the first three chapters of this book; you know why. A window that contains everything contains most things in the middle, and the middle — as Nelson Liu and his colleagues established, and as every benchmark since has confirmed — is where attention goes thin. A document dumped into context is a document most of which the model will skim.
 
-There is a better approach, which the Anthropic engineering team named in their 2025 writeup on effective context engineering and which has since become the standard recommendation among serious practitioners. It is called **just-in-time retrieval**, and the principle behind it can be stated in one sentence: *give the agent pointers, not payloads.*
+There is a better approach, which the Anthropic engineering team named in their 2025 writeup on [effective context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) and which has since become the standard recommendation among serious practitioners. It is called **just-in-time retrieval**, and the principle behind it can be stated in one sentence: *give the agent pointers, not payloads.*
 
 ![A loop showing just-in-time context: ask, retrieve, use, and encode, with a crossed-out box for dumping everything first.](assets/diagrams/png/just-in-time-context.png)
 
@@ -26,7 +26,7 @@ The just-in-time pattern, by contrast, gives the model a way to *find* the relev
 
 In its simplest form, this is a filesystem or a directory listing. You point the model at a folder — `interviews/2025/` — and tell it that when it needs specific material, it should read the relevant files by name. The model does not have every interview in context. It has a *map* of every interview. When it needs interview number fifty-seven, because the conversation has turned to pricing-tier questions and interview fifty-seven is where those came up, it reads interview fifty-seven. At that moment, and not before.
 
-The mechanics vary by tool — filesystem reads in Claude Code, `@`-mentions in Cursor, `/read` in Aider, file-scoped search in ChatGPT Projects. **MCP servers**, which we will come to in the next chapter, make the pattern cross-vendor. The details differ. The idea is the same: keep the heavy material out of the default window, and retrieve only what the current question needs.
+The mechanics vary by tool — filesystem reads in Claude Code, `@`-mentions in Cursor, `/read` in Aider, file-scoped search in ChatGPT Projects. **MCP servers** make the pattern cross-vendor. The details differ. The idea is the same: keep the heavy material out of the default window, and retrieve only what the current question needs.
 
 The payoff is twofold. First, the context is smaller, and the smaller context is sharper — the model attends more carefully to what is in front of it. Second, the retrieval is *targeted*: the model brings in the relevant three interviews instead of scanning a hundred. The synthesis built on three carefully-read interviews is, more often than not, better than the synthesis built on a hundred lightly-read ones.
 
@@ -65,5 +65,3 @@ First, before your next long-document task, ask: *does the model need to see all
 Second, when you notice yourself about to attach a long document to a prompt, pause. Ask yourself if there is a one-page summary you could attach instead, with the full document available via a pointer. Nine times out of ten, there is.
 
 The model, assisted in this way, is doing more real work and less skimming. Your output will show it.
-
-The next chapter is about the protocol that makes a great deal of this possible — and which, in the space of about twelve months, was adopted by almost every major AI tool. It is called the Model Context Protocol, and it is one of the quiet revolutions of 2025.

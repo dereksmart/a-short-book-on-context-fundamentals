@@ -51,5 +51,3 @@ If you are an individual user: open the memory view in your primary AI tool. Del
 If you are a developer building an agent: don't reach for a memory service yet. Start with the file-based pattern — Anthropic's or something like it — and see how far it carries you. Most agents built in 2026 that advertise "memory" are using this pattern, and most produce results indistinguishable from the ones built on dedicated memory infrastructure, at a tenth of the operational complexity.
 
 If the simple pattern starts failing, that is when to look at mem0, Zep, Letta, or whichever matches your application's shape. Evaluate carefully before committing. The field is moving quickly, and the right answer today is not necessarily the right answer six months from now.
-
-Next chapter closes Part V with the empirical argument for a principle that has been implicit throughout: small, curated, dense context files routinely beat large, comprehensive ones. There is evidence. It is worth seeing.
