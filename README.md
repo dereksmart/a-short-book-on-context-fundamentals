@@ -24,6 +24,8 @@ The EPUB is generated from the markdown source in this repo. It is published as 
 
 ## Build Locally
 
+This book is built with [Bookbind](https://github.com/dereksmart/bookbind/), a small EPUB builder that binds a directory of markdown files into an EPUB.
+
 From this directory:
 
 ```sh
