@@ -1,7 +1,5 @@
 # Chapter 20 — The Tool Landscape
 
-![A restrained transit-map-style desk diagram with unnamed tool paths converging on one shared context window.](assets/images/part-06-tool-landscape.png)
-
 There is a small ritual I suspect many readers will recognize. You open your laptop in the morning, and across the top of your browser sit anywhere from four to eight tabs from AI tools you were using the day before. ChatGPT for the email. Claude for the spec. Cursor for the refactor. A Gemini tab you opened to check one thing and then didn't close. NotebookLM with a paper in it. A Copilot chat you meant to get back to.
 
 At some point, standing in the kitchen waiting for the coffee to brew, it occurs to you — not for the first time — that you used to have *a* computer, and that you now have something closer to a small committee of specialized ones, each with its own handwriting and its own moods.

@@ -1,7 +1,5 @@
 # Chapter 16 — Why Markdown Won
 
-![Plain notes moving between a notebook, laptop, and small device, suggesting portable markdown context.](assets/images/part-05-context-travels.png)
-
 In 2004, a Philadelphia-based blogger named John Gruber, with some input from Aaron Swartz, introduced a lightweight markup language he called **Markdown**. ([original project](https://daringfireball.net/projects/markdown/)) The pitch, which Gruber made with his characteristic restraint, was that it was a way to write formatted text that also looked perfectly readable without being rendered — asterisks for emphasis, pound signs for headers, hyphens for bullet points, that sort of thing.
 
 Nobody particularly noticed.

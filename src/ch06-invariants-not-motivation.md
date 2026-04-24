@@ -1,7 +1,5 @@
 # Chapter 6 — Invariants, Not Motivation
 
-![A tidy desk with a pinned rules card, notes, and index cards arranged for a new colleague.](assets/images/part-02-rules-card.png)
-
 If you were given the task of writing a manual for a newly-hired, brilliant, and slightly underinformed colleague, there are certain things you would put in it.
 
 You would not put in: *be a good colleague.* You would not put in: *write clean code.* You would not put in: *care about the user.* These are things your new hire, being brilliant, already knows and quite agrees with. They are also, for the most part, what large language models already know and agree with, having read most of the internet's thoughts on the subject several times over.

@@ -1,7 +1,5 @@
 # Chapter 21 — Subagents and Agent Teams
 
-![Several organized desks connected by thin lines, suggesting coordinated agent work.](assets/images/part-07-context-assembler.png)
-
 So far in this book we have treated the AI as a single thing. One model. One context window. One conversation at a time.
 
 This is true for most daily work and will remain so. But it is no longer the whole picture. A growing share of serious AI work — particularly at the edge of what the field is currently capable of — involves multiple agents working together, coordinating through messages, task lists, or shared memory. The pattern goes by a few names, and the distinctions matter.

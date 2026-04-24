@@ -1,7 +1,5 @@
 # Chapter 10 — Anatomy of a Command
 
-![A structured command form on a desk, divided into three blank sections.](assets/images/part-03-command-form.png)
-
 There is a simple test for whether a command to an AI is going to produce a useful result. Read it back to yourself. If you can imagine five different things the model might do in response, all of them technically correct, the command is not tight enough.
 
 "Check whether these are aligned." Does that mean *tell me yes or no?* Or *produce a report?* Or *rewrite the second one to match the first?* Which are these, incidentally? And aligned against what? It depends, in every case, on what the model happens to guess — which, in turn, depends on what the internet's average guess would be. Which is to say: a wish, not a command.

@@ -1,7 +1,5 @@
 # Chapter 13 — Directed Reconnaissance
 
-![An open field notebook with selected clippings and cards connected by thin pencil lines.](assets/images/part-04-directed-reconnaissance.png)
-
 Imagine that you are the senior partner in a firm, and you have given a research task to a new associate. You could hand them the entire filing cabinet and tell them to find what's relevant. Or you could say: *start with the 2023 correspondence, then check the regulatory filings from that quarter, and ignore the trial transcripts — they're from a different matter.*
 
 The first approach is thorough. It is also, in practice, a way of throwing away the associate's time and arriving at a worse answer. The associate will spend hours doing the thing you could have spared them, end up with a great pile of unsorted material, and — being new and eager — bring you something that is comprehensive in exactly the wrong direction.

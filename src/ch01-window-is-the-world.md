@@ -1,7 +1,5 @@
 # Chapter 1 — The Window Is the World
 
-![A quiet library desk lit by a small pool of light.](assets/images/part-01-library-dark.png)
-
 A few years ago — though in the accelerated time of machine learning it feels like several careers ago — a new kind of assistant arrived in our working lives.
 
 It could draft an email while you fetched coffee. It could explain the history of Byzantine diplomacy as cheerfully as it could debug a line of JavaScript. It had read, in some useful sense, rather more of the internet than any reasonable person ought to, and it would happily tell you about any of it, at any hour, for what worked out to pennies on the dollar.
