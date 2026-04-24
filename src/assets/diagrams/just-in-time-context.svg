@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Just-in-time context</title>
+  <desc id="desc">A four-step loop: ask, retrieve, use, encode.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto">
+      <path d="M0,0 L11,5.5 L0,11 Z" fill="#1f2933"/>
+    </marker>
+    <style>
+      .bg { fill: #f7f3ea; }
+      .ink { fill: #1f2933; }
+      .muted { fill: #69727a; }
+      .card { fill: #fffaf0; stroke: #1f2933; stroke-width: 3; rx: 12; }
+      .teal { fill: #d9e7e2; }
+      .gold { fill: #eee3b8; }
+      .rust { fill: #efd8cc; }
+      .blue { fill: #d9e1ea; }
+      .arrow { stroke: #1f2933; stroke-width: 3; fill: none; stroke-linecap: round; marker-end: url(#arrow); }
+      .cross { stroke: #b56b4b; stroke-width: 5; stroke-linecap: round; }
+      text { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .title { font-size: 38px; font-weight: 700; }
+      .label { font-size: 28px; font-weight: 700; }
+      .small { font-size: 21px; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="675"/>
+  <text class="title ink" x="86" y="92">Just-in-Time Context</text>
+  <text class="small muted" x="88" y="128">Bring in what the task needs, when it needs it.</text>
+
+  <rect class="card teal" x="140" y="240" width="190" height="110"/>
+  <rect class="card gold" x="410" y="240" width="190" height="110"/>
+  <rect class="card rust" x="680" y="240" width="190" height="110"/>
+  <rect class="card blue" x="950" y="240" width="190" height="110"/>
+
+  <text class="label ink" x="196" y="308">Ask</text>
+  <text class="label ink" x="450" y="308">Retrieve</text>
+  <text class="label ink" x="737" y="308">Use</text>
+  <text class="label ink" x="992" y="308">Encode</text>
+
+  <path class="arrow" d="M330 295 H386"/>
+  <path class="arrow" d="M600 295 H656"/>
+  <path class="arrow" d="M870 295 H926"/>
+  <path class="arrow" d="M1045 350 C980 515 270 515 235 350"/>
+
+  <rect class="card" x="420" y="442" width="360" height="92"/>
+  <text class="small muted" x="474" y="496">not: dump everything first</text>
+  <line class="cross" x1="452" y1="466" x2="748" y2="518"/>
+  <line class="cross" x1="748" y1="466" x2="452" y2="518"/>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">The context window</title>
+  <desc id="desc">A diagram showing how rules, command, history, files, tool output, and memory all compete inside one context window.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f7f3ea; }
+      .ink { fill: #1f2933; }
+      .muted { fill: #69727a; }
+      .line { stroke: #1f2933; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .soft { stroke: #b9aea0; stroke-width: 2; fill: none; stroke-dasharray: 7 9; }
+      .panel { fill: #fffaf0; stroke: #1f2933; stroke-width: 3; rx: 10; }
+      .slot { stroke: #1f2933; stroke-width: 2; rx: 8; }
+      .teal { fill: #d9e7e2; }
+      .rust { fill: #efd8cc; }
+      .gold { fill: #eee3b8; }
+      .blue { fill: #d9e1ea; }
+      .gray { fill: #e8e2d8; }
+      text { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .title { font-size: 38px; font-weight: 700; letter-spacing: 0; }
+      .label { font-size: 25px; font-weight: 650; }
+      .small { font-size: 20px; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="675"/>
+  <text class="title ink" x="94" y="94">The Context Window</text>
+  <text class="small muted" x="96" y="130">Everything the model can use must fit in the same working room.</text>
+
+  <rect class="panel" x="330" y="78" width="540" height="520"/>
+  <rect class="slot teal" x="372" y="126" width="456" height="74"/>
+  <rect class="slot gold" x="372" y="218" width="456" height="74"/>
+  <rect class="slot rust" x="372" y="310" width="456" height="74"/>
+  <rect class="slot blue" x="372" y="402" width="456" height="74"/>
+  <rect class="slot gray" x="372" y="494" width="456" height="62"/>
+
+  <text class="label ink" x="404" y="172">Project rules</text>
+  <text class="label ink" x="404" y="264">Current command</text>
+  <text class="label ink" x="404" y="356">Conversation history</text>
+  <text class="label ink" x="404" y="448">Files and tool output</text>
+  <text class="label ink" x="404" y="534">Memory</text>
+
+  <rect class="soft" x="88" y="230" width="170" height="86" rx="9"/>
+  <rect class="soft" x="932" y="180" width="178" height="92" rx="9"/>
+  <rect class="soft" x="912" y="408" width="190" height="90" rx="9"/>
+  <text class="small muted" x="111" y="280">outside</text>
+  <text class="small muted" x="970" y="233">not seen</text>
+  <text class="small muted" x="955" y="461">unless added</text>
+
+  <path class="line" d="M258 273 C296 273 300 238 330 238"/>
+  <path class="line" d="M912 226 C884 226 884 226 870 226"/>
+  <path class="line" d="M912 450 C884 450 884 450 870 450"/>
+</svg>
