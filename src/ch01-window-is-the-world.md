@@ -40,6 +40,10 @@ What they do not have is any particular knowledge of your world. They do not kno
 
 That is, essentially, what it is like to work with a large language model. The model is the new hire. The context window is the package of papers you hand them as they sit down at the desk. What you put in that package is, to a degree that is not intuitive at first, the thing that determines how good their day will be.
 
+Suppose the task is harmless enough: revise a one-page product announcement. You hand the new hire the announcement, the brand voice guide, the legal note about a feature still under embargo, last quarter's customer research, three examples of previous launches, and a Slack thread in which someone named Morgan says, with the confidence peculiar to Slack threads, that nobody should ever use the word "seamless" again.
+
+If the embargo note is on the first page of the packet, the new hire will probably remember it. If it is on the last page, circled in red, they will probably remember it. If it is printed on page forty-seven, between two nearly identical launch examples and a screenshot of a dashboard nobody asked for, you have made a small wager against human attention. The large language model has different machinery, but the practical lesson is the same. Important things do not remain important simply because you included them. They remain important because of where and how they appear.
+
 ## Everything competes
 
 One more thing before we set about exploring the window.

@@ -20,6 +20,12 @@ Subagents are what you want when **only the result matters** — when the work n
 
 Agent teams are what you want when **the agents need to challenge each other's work** — when the quality of the output genuinely benefits from two or more perspectives, when one agent's draft needs to be reviewed by another, when a task has multiple components that can be worked in parallel and then integrated. More expensive, more complex, but capable of outcomes a single agent would struggle to reach alone.
 
+Take an editorial review of a long manuscript, which is a pleasingly low-stakes example because the worst likely outcome is a paragraph with too much enthusiasm for semicolons. A main agent can read the outline and own the final memo. It can send one subagent to inspect the opening chapters for pacing, another to check the source claims, and a third to read only the exercises at the end of each chapter. Each comes back with a narrow report. The main agent integrates them and keeps the author's actual taste in view.
+
+That is subagent work. Nobody needs the pacing reader and the citation checker to have a meeting.
+
+An agent team would make sense only if the manuscript needed genuine argument between roles: an editor pushing for clarity, a technical reviewer defending precision, a market reader asking whether a beginner would care, and a lead deciding what survives. That can be useful. It can also become, with alarming speed, a small committee. And as anyone who has watched a small committee edit a sentence knows, more minds are not automatically more mercy.
+
 Both patterns exist across every major tool. The implementations differ; the categories are the same.
 
 ## How it looks in each tool

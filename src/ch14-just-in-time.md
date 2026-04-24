@@ -30,6 +30,10 @@ The mechanics vary by tool — filesystem reads in Claude Code, `@`-mentions in 
 
 The payoff is twofold. First, the context is smaller, and the smaller context is sharper — the model attends more carefully to what is in front of it. Second, the retrieval is *targeted*: the model brings in the relevant three interviews instead of scanning a hundred. The synthesis built on three carefully-read interviews is, more often than not, better than the synthesis built on a hundred lightly-read ones.
 
+In practice, the difference feels almost embarrassingly mundane. A product manager asks: *why did trial users churn in March?* The payload approach attaches the whole research archive and hopes for wisdom. The just-in-time approach gives the model the interview index, the tagging convention, and the instruction: *start with interviews tagged churn, pricing, and onboarding; ignore enterprise-sales calls; cite the interview IDs you actually used.*
+
+Now the model has a job, not a haystack. It reads the index, finds seven plausible interviews, opens six, rejects two as off-topic, and returns a synthesis built from the four that actually matter. This sounds less magical than "upload everything," which is part of its charm. Most reliable systems are less magical up close. They are a sequence of ordinary decisions made in the right order.
+
 ## The Anthropic recommendation
 
 The Anthropic engineering post from September 2025 made the case in terms worth paraphrasing, because they generalize:

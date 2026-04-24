@@ -34,6 +34,10 @@ In practice, harnesses consist of three kinds of machinery, roughly in the order
 
 The three tend to be adopted in that order, because each depends on the previous one. You cannot measure without first blocking your way out of pure chaos. You cannot repair without first measuring what went wrong.
 
+Here is the same idea outside software deployment. Imagine an editorial agent allowed to revise customer-facing help articles. The **blocks** say it may not invent product behavior, may not change legal disclaimers, and may not publish directly. The **measurements** track how often reviewers accept its edits, which style rules it violates, and whether it cites current product docs rather than an old launch note found in a dusty corner of the knowledge base. The **repairs** are simple: if confidence is low, send the draft to a human; if the docs source is stale, stop and ask for the current one; if a disclaimer changes, rerun every article that contains it.
+
+None of this makes the agent brilliant. It makes the agent usable. This is the pattern that repeats: autonomy becomes safer when the surrounding system is modest, explicit, and slightly suspicious.
+
 ## Evaluation and monitoring, briefly
 
 Two specific pieces of the harness deserve their own mention.

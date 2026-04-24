@@ -54,6 +54,30 @@ Putting the three disciplines together: a well-maintained rules file is short (f
 
 A team's rules file is, in a real sense, a mirror. A team with good habits has a short, accurate, recently-edited one. A team with scattered habits has a long, stale one full of motivational language that nobody follows. The file tells you, at a glance, what kind of working relationship this team has with its AI.
 
+Here is the difference in miniature.
+
+The weak version says:
+
+```
+- Write clean code.
+- Follow our style.
+- Use best practices.
+- Be careful with tests.
+```
+
+This is not a rules file. It is a series of wishes, and not very specific wishes. It asks the model to infer the entire culture of the team from four phrases that could appear on a conference tote bag.
+
+The stronger version says:
+
+```
+- Use existing design tokens from `src/styles/tokens.ts`; do not introduce new colors.
+- For React components, keep data fetching in route loaders, not component effects.
+- Add or update the nearest unit test when changing parser behavior.
+- Do not edit generated files under `src/generated/`; update the schema and regenerate.
+```
+
+These are smaller, plainer, and much harder to misunderstand. They name files. They draw boundaries. They encode decisions the team has actually made. A good rules file does not try to make the model virtuous. It tells the model what this particular shop has learned the expensive way.
+
 ## For Monday
 
 Three moves, in order.

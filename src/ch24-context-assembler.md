@@ -28,6 +28,10 @@ Four recurring threads.
 
 Curation deserves a word more than the others, because it is the most under-appreciated. It is the maintenance half of the role — consolidating, pruning, promoting, retiring — and it is what separates a team whose AI tooling compounds from one whose tooling accretes. A rules file that grows without editing becomes, within a quarter or two, a rules file nobody reads. Most of the day-to-day work of the role is curation and diagnosis; authorship and integration happen in bursts, usually when something is being set up or reorganized.
 
+A representative Tuesday is not glamorous. The context assembler notices that the support team keeps getting AI drafts in the wrong tone. They inspect the rules file and find two tone guides, one current and one old enough to recommend phrases nobody has said aloud since the previous head of marketing. They delete the old guide, shorten the current one, add three examples, and promote the support-review prompt into a reusable skill. Then they check the trace from a failed run and discover the agent is reading archived help-center articles before current docs. That becomes a retrieval bound. By lunch, nothing has been "invented." The system has simply become less confused.
+
+This is the work. Not grand pronouncements about the future of intelligence. Mostly housekeeping, with consequences.
+
 ## The role at different scales
 
 The role scales with team size, unevenly.

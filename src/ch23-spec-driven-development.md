@@ -46,6 +46,8 @@ That's it. Four sections. The document might be half a page or five depending on
 
 A spec written this way is legible to humans, legible to AI, testable, and durable. It is also, notably, much cheaper to write than most people expect. The first time, it will feel like a heavy tax on what you thought was a simple task. The second time, less so. By the tenth, you won't want to work without one.
 
+For example, a non-code spec for a pricing-page rewrite might say: *keep the existing plan structure; clarify the difference between team and enterprise tiers; do not introduce a discounting claim; preserve all legal footnotes; acceptance means a sales lead, a support lead, and legal can each approve without requesting a second rewrite.* That is not engineering in the narrow sense. It is still spec-driven work. The value is the same: the AI is no longer guessing what "make this better" means, which is fortunate, because "better" is where bad revisions go to hide.
+
 ## Executable specs
 
 A related development, which some teams in 2026 have begun to lean into, is the **executable spec**: a spec structured so an agent can directly execute against it — parsing acceptance criteria into tests, scope definitions into file lists, the approach section into a sequence of operations. The tooling is nascent; the patterns vary. The direction is clear: specs are evolving from *documents humans read before doing the work* to *artifacts agents can partially automate*. A well-written spec in 2028 will be more programmatic still.
